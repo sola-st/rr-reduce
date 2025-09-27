@@ -17,9 +17,9 @@
   },
   "postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
   "remoteEnv": {
-    "BINARYEN_ROOT": "/workspaces/wasm-r3/third_party/binaryen",
-    "WASMR3_PATH": "/workspaces/wasm-r3",
-    "PATH": "/workspaces/wasm-r3/rr-reduce/:/workspaces/wasm-r3/crates/target/release:/workspaces/wasm-r3/evaluation/engines:/workspaces/wasm-r3/third_party/wasm-tools/target/release/:/workspaces/wasm-r3/third_party/binaryen/bin/:/workspaces/wasm-r3/third_party/wizard-engine/virgil/bin:/workspaces/wasm-r3/third_party/wizard-engine/bin:${containerEnv:PATH}"
+    "BINARYEN_ROOT": "/workspaces/rr-reduce/third_party/binaryen",
+    "WASMR3_PATH": "/workspaces/rr-reduce",
+    "PATH": "/workspaces/rr-reduce/rr-reduce/:/workspaces/rr-reduce/crates/target/release:/workspaces/rr-reduce/evaluation/engines:/workspaces/rr-reduce/third_party/wasm-tools/target/release/:/workspaces/rr-reduce/third_party/binaryen/bin/:/workspaces/rr-reduce/third_party/wizard-engine/virgil/bin:/workspaces/rr-reduce/third_party/wizard-engine/bin:${containerEnv:PATH}"
   },
   "customizations": {
   },
